@@ -1,0 +1,185 @@
+/*----------- Grid & Layout -----------*/
+.main_portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/*----------- Responsiv -----------*/
+@media (min-width: 800px) { 
+    /*----------- Menu -----------*/
+nav {
+    height: 12%;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #5e5e5e93;
+    padding: 30px;
+}
+
+ul {
+    flex: 1;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: Orbitron;
+    font-size: 24px;
+    color: black;
+     border: 1px solid black;
+    background-color: #9fc55987;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*----------- Tekst -----------*/
+h1 {
+    font-family: Orbitron;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+
+h2 {
+    font-family: Orbitron;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+
+p {
+    font-family: Tenorsans;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+}
+
+/*----------- Forside -----------*/
+.Forside-tekst {
+    max-width: 100%;
+    margin-left: 33%;
+    margin-top: 2%;
+  }
+
+/*----------- Portfolio -----------*/
+.Main-portfolio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: (6 ,1fr);
+    gap: 2em;
+}
+
+ /*----------- Grundlæggende indhold -----------*/
+ .tekst1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.billeder1 {
+    grid-column: 2 / 3 span;
+    grid-row: 1;
+}
+
+.tekst2 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.billeder2 {
+    grid-column: 1 / 2 span;
+    grid-row: 2;
+}
+
+/*----------- Grundlæggende animation -----------*/
+.tekst3 {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.billeder3 {
+    grid-column: 2 / 3 span;
+    grid-row: 3;
+}
+
+/*----------- Grundlæggende UX -----------*/
+.tekst4 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+
+.billeder4 {
+    grid-column: 1 / 2 span;
+    grid-row: 4;
+}
+
+/*----------- Grundlæggende web -----------*/
+.tekst5 {
+    grid-column: 1 / 2;
+    grid-row: 5;
+}
+
+.billeder5 {
+    grid-column: 2 / 3 span;
+    grid-row: 5;
+}
+
+.tekst6 {
+    grid-column: 2 / 3;
+    grid-row: 6;
+}
+
+.billeder6 {
+    grid-column: 1 / 2 span;
+    grid-row: 6;
+}
+
+/*----------- Om mig -----------*/
+.Main-Om_mig {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.Om_mig_tekst {
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.Om_mig_billede {
+    grid-column: 2 / 3 span;
+    grid-row: 1;
+}
+
+.CV {
+    max-width: 50%;
+    margin-top: 5%;
+    margin-left: 24%;
+
+    grid-column: 1 / 3 span;
+    grid-row: 2;
+}
+}

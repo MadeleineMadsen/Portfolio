@@ -1,0 +1,130 @@
+/*----------- Generel css -----------*/
+body {
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*----------- Menu -----------*/
+nav {
+    display: flex;
+    height: 12%;
+    text-align: center;
+    background-color: #5e5e5e93;
+    padding: 20px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: Orbitron;
+    font-size: 14px;
+    color: black;
+     border: 1px solid black;
+    background-color: #9fc55987;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a:hover {
+    color: white;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+/*----------- Tekst -----------*/
+
+h1 {
+    font-family: Orbitron;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+
+h2 {
+    font-family: Orbitron;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+}
+
+p {
+    font-family: Tenorsans;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: white;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: "Tenorsans";
+    src: url(../Fonts/TenorSans-Regular.ttf);
+}
+
+/*----------- Forside -----------*/
+.Forside {
+    min-height: 100vh;
+    background: url(img/billede1.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.Forside-tekst {
+    max-width: 100%;
+    margin-left: 33%;
+    margin-top: 2%;
+
+    max-width: 60%;
+    margin-left: 21%;
+    margin-top: 10%;
+  }
+
+/*----------- Portfolio -----------*/
+.Portfolio {
+    min-height: 100vh;
+    background: url(img/billede2.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Main-portfolio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+/*----------- Om mig -----------*/
+.Om_mig {
+    min-height: 100vh;
+    background: url(img/billede2.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Main-Om_mig {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Om_mig_tekst {
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+}
