@@ -9,8 +9,7 @@
 @media (min-width: 800px) { 
     /*----------- Menu -----------*/
 nav {
-    height: 12%;
-    text-align: center;
+    align-items: center;
     letter-spacing: 1px;
     background-color: #5e5e5e93;
     padding: 30px;
@@ -34,7 +33,7 @@ li a {
     text-decoration: none;
     padding: 10px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 /*----------- Tekst -----------*/
