@@ -59,7 +59,7 @@ h2 {
 }
 
 p {
-    font-family: Tenorsans;
+    font-family: Kanit;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -68,8 +68,8 @@ p {
 }
 
 @font-face {
-    font-family: "Tenorsans";
-    src: url(../Fonts/TenorSans-Regular.ttf);
+    font-family: "Kanit";
+    src: url(fonts/Kanit-Light.ttf);
 }
 
 /*----------- Forside -----------*/
