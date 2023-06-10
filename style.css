@@ -8,11 +8,32 @@ img {
 }
 
 /*----------- Menu -----------*/
-nav {
+header {
     display: flex;
+    flex-flow: wrap;
+    background: #5e5e5e93;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #5e5e5e93;
     padding: 20px;
+  }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 12px;
+    gap: 2em;
+  }
+
+.toggle-btn {
+    background: transparent;
+    font-family: Orbitron;
+    font-size: 14px;
+    color: white;
+    border: none;
+    display: none;
+    cursor: pointer;
+    min-width: 44px;
+    min-height: 44px;
 }
 
 li {
@@ -39,6 +60,28 @@ a:hover {
     font-family: Orbitron;
     src: url(../fonts/Orbitron-VariableFont_wght.ttf);
 }
+
+@media (max-width: 600px) {
+    .toggle-btn {
+      display: block;
+    }
+  
+    .menu.shown {
+      display: contents;
+    }
+  
+    .menu ul {
+      display: none;
+    }
+  
+    .menu.shown ul {
+      border-top: 1px solid #000;
+      padding-top: 1rem;
+      display: flex;
+      flex-flow: row;
+      flex-basis: 100%;
+    }
+  }
 
 /*----------- Tekst -----------*/
 
