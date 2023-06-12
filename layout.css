@@ -71,6 +71,12 @@ p {
     text-align: justify;
 }
 
+a {
+    font-family: Kanit;
+    font-size: 16px;
+    color: #a6c967;
+}
+
 /*----------- Forside -----------*/
 .Forside-tekst {
     max-width: 100%;
