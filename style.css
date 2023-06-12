@@ -1,6 +1,7 @@
 /*----------- Generel css -----------*/
 body {
     margin: auto;
+    max-width: 1700px;
 }
 
 img {
@@ -165,4 +166,33 @@ p {
     line-height: 1.5;
     letter-spacing: 1px;
     text-align: justify;
+}
+
+/*----------- Footer -----------*/
+footer {
+    text-align: center;
+    justify-content: space-evenly;
+    background-color:#5e5e5e93;
+    padding: 10px;
+}
+
+footer img {
+    background-color: #9fc55987;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Instagram {
+    max-width: 4%;
+}
+
+.Linkedin {
+    max-width: 4%;
+}
+
+.Mail {
+    max-width: 4%;
 }
