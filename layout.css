@@ -82,7 +82,11 @@ a {
     max-width: 100%;
     margin-left: 33%;
     margin-top: 2%;
-  }
+}
+
+  .Forside_footer {
+    margin-top: 0;
+}
 
 /*----------- Portfolio -----------*/
 .Main-portfolio {
@@ -103,8 +107,8 @@ a {
     grid-row: 1;
 }
 
-.billeder1 {
-    grid-column: 1 / 2 span;
+.billede1 {
+    grid-column: 1 / 2;
     grid-row: 1;
 }
 
@@ -113,8 +117,8 @@ a {
     grid-row: 2;
 }
 
-.billeder2 {
-    grid-column: 2 / 3 span;
+.billede2 {
+    grid-column: 2 / 3;
     grid-row: 2;
 }
 
@@ -124,8 +128,8 @@ a {
     grid-row: 3;
 }
 
-.billeder3 {
-    grid-column: 1 / 2 span;
+.billede3 {
+    grid-column: 1 / 2;
     grid-row: 3;
 }
 
@@ -135,8 +139,8 @@ a {
     grid-row: 4;
 }
 
-.billeder4 {
-    grid-column: 2 / 3 span;
+.billede4 {
+    grid-column: 2 / 3;
     grid-row: 4;
 }
 
@@ -146,8 +150,8 @@ a {
     grid-row: 5;
 }
 
-.billeder5 {
-    grid-column: 1 / 2 span;
+.billede5 {
+    grid-column: 1 / 2;
     grid-row: 5;
 }
 
@@ -156,8 +160,8 @@ a {
     grid-row: 6;
 }
 
-.billeder6 {
-    grid-column: 2 / 3 span;
+.billede6 {
+    grid-column: 2 / 3;
     grid-row: 6;
 }
 

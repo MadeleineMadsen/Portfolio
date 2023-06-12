@@ -125,7 +125,7 @@ a {
     background: url(img/billede1.webp) no-repeat;     /* Rettighedsfrit billede fra Unspalsh */
     background-size: cover;
     background-position: center;
-  }
+}
 
 .Forside-tekst {
     max-width: 100%;
@@ -135,7 +135,11 @@ a {
     max-width: 60%;
     margin-left: 21%;
     margin-top: 10%;
-  }
+}
+
+.Forside_footer {
+    margin-top: 88%;
+}
 
 /*----------- Portfolio -----------*/
 .Portfolio {
@@ -143,14 +147,59 @@ a {
     background: url(img/billede2.webp) no-repeat;     /* Rettighedsfrit billede fra Unspalsh */
     background-size: cover;
     background-position: center;
-  }
+}
 
   .Main-portfolio {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
+
+.tekst1 {
+    margin-bottom: 20px;
+}
+
+.billede1 {
+    margin-bottom: 50px;
+}
+
+.tekst2 {
+    margin-bottom: 20px;
+}
+
+.billede2 {
+    margin-bottom: 50px;
+}
+
+.tekst3 {
+    margin-bottom: 20px;
+}
+
+.billede3 {
+    margin-bottom: 50px;
+}
+
+.tekst4 {
+    margin-bottom: 20px;
+}
+
+.billede4 {
+    margin-bottom: 50px;
+}
+
+.tekst5 {
+    margin-bottom: 20px;
+}
+
+.billede5 {
+    margin-bottom: 50px;
+}
+
+.tekst6 {
+    margin-bottom: 20px;
+}
+
 
 
 /*----------- Om mig -----------*/
@@ -159,7 +208,7 @@ a {
     background: url(img/billede2.webp) no-repeat;     /* Rettighedsfrit billede fra Unspalsh */
     background-size: cover;
     background-position: center;
-  }
+}
 
   .Main-Om_mig {
     margin-top: 20px;
